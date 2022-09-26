@@ -22,4 +22,10 @@ public class MainActivity extends AppCompatActivity {
         Intent siguiente2 = new Intent(this, BotonUbicacion.class);
         startActivity(siguiente2);
     }
+    public void Siguiente3 (View view) {
+        Intent siguiente3 = new Intent(this, ActLocales.class);
+        startActivity(siguiente3);
+    }
+
+
 }

@@ -14,6 +14,11 @@
         android:theme="@style/Theme.ProyectoSantoTomas"
         tools:targetApi="31">
         <activity
+            android:name=".ActLocales"
+            android:exported="false"
+            android:label="@string/title_activity_act_locales"
+            android:theme="@style/Theme.ProyectoSantoTomas.NoActionBar" />
+        <activity
             android:name=".BotonUbicacion"
             android:exported="false" />
         <activity
