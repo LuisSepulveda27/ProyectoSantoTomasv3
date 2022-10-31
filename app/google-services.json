@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "472830761620",
+    "project_id": "proyecto-santo-tomas",
+    "storage_bucket": "proyecto-santo-tomas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472830761620:android:d2437af0d377eca478f281",
+        "android_client_info": {
+          "package_name": "SantoTomas.proyectosantotomas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472830761620-ciddsut85t84jndcpb7jfl8gmeve4bkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHTrKSudJKwj8ocKUNUB4i2OTcygIqdM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472830761620-ciddsut85t84jndcpb7jfl8gmeve4bkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

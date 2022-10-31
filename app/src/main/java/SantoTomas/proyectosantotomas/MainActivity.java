@@ -26,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
         Intent siguiente3 = new Intent(this, ActLocales.class);
         startActivity(siguiente3);
     }
+    public void Siguiente4 (View view) {
+        Intent siguiente4 = new Intent(this, AgregarLocales.class);
+        startActivity(siguiente4);
+    }
 
 
 }

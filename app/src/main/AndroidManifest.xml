@@ -14,6 +14,20 @@
         android:theme="@style/Theme.ProyectoSantoTomas"
         tools:targetApi="31">
         <activity
+            android:name=".CrearLocales"
+            android:exported="false" />
+        <activity
+            android:name=".AgregarLocales"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCHTrKSudJKwj8ocKUNUB4i2OTcygIqdM4" />
+
+        <activity
+            android:name=".GoogleMaps"
+            android:exported="false" />
+        <activity
             android:name=".ActLocales"
             android:exported="false"
             android:label="@string/title_activity_act_locales"
