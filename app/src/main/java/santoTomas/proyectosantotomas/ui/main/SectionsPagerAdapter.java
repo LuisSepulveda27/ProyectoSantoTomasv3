@@ -1,4 +1,4 @@
-package SantoTomas.proyectosantotomas.ui.main;
+package santoTomas.proyectosantotomas.ui.main;
 
 import android.content.Context;
 
@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import SantoTomas.proyectosantotomas.R;
+import santoTomas.proyectosantotomas.R;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to

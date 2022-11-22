@@ -1,4 +1,4 @@
-package SantoTomas.proyectosantotomas;
+package santoTomas.proyectosantotomas;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,7 +11,7 @@ public class BotonUbicacion extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_boton_ubicacion);
+        setContentView(R.layout.activity_agregar_locales);
     }
     public void Mapa1 (View view) {
         Intent mapa1 = new Intent(this, GoogleMaps.class);

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="SantoTomas.proyectosantotomas">
+    package="santoTomas.proyectosantotomas">
 
     <application
         android:allowBackup="true"
@@ -14,32 +14,32 @@
         android:theme="@style/Theme.ProyectoSantoTomas"
         tools:targetApi="31">
         <activity
-            android:name=".CrearLocales"
+            android:name="santoTomas.proyectosantotomas.CrearLocales"
             android:exported="false" />
         <activity
-            android:name=".AgregarLocales"
+            android:name="santoTomas.proyectosantotomas.AgregarLocales"
             android:exported="false" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCHTrKSudJKwj8ocKUNUB4i2OTcygIqdM4" />
+            android:value="AIzaSyDO8NuSXIM13JlU5eCuY83r16uFrM3FXXc" />
 
         <activity
-            android:name=".GoogleMaps"
+            android:name="santoTomas.proyectosantotomas.GoogleMaps"
             android:exported="false" />
         <activity
-            android:name=".ActLocales"
+            android:name="santoTomas.proyectosantotomas.ActLocales"
             android:exported="false"
             android:label="@string/title_activity_act_locales"
             android:theme="@style/Theme.ProyectoSantoTomas.NoActionBar" />
         <activity
-            android:name=".BotonUbicacion"
+            android:name="santoTomas.proyectosantotomas.BotonUbicacion"
             android:exported="false" />
         <activity
-            android:name=".BotonLocales"
+            android:name="santoTomas.proyectosantotomas.BotonLocales"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="santoTomas.proyectosantotomas.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

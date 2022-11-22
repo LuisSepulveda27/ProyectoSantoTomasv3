@@ -1,4 +1,4 @@
-package SantoTomas.proyectosantotomas;
+package santoTomas.proyectosantotomas;
 
 import android.os.Bundle;
 

@@ -1,4 +1,4 @@
-package SantoTomas.proyectosantotomas;
+package santoTomas.proyectosantotomas;
 
 import androidx.appcompat.app.AppCompatActivity;
 

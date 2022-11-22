@@ -1,4 +1,4 @@
-package SantoTomas.proyectosantotomas;
+package santoTomas.proyectosantotomas;
 
 import android.os.Bundle;
 
@@ -9,12 +9,10 @@ import com.google.android.material.tabs.TabLayout;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 
-import SantoTomas.proyectosantotomas.ui.main.SectionsPagerAdapter;
-import SantoTomas.proyectosantotomas.databinding.ActivityActLocalesBinding;
+import santoTomas.proyectosantotomas.ui.main.SectionsPagerAdapter;
+import santoTomas.proyectosantotomas.databinding.ActivityActLocalesBinding;
 
 public class ActLocales extends AppCompatActivity {
 

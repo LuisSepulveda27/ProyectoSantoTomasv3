@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "472830761620",
-    "project_id": "proyecto-santo-tomas",
-    "storage_bucket": "proyecto-santo-tomas.appspot.com"
+    "project_number": "675367861648",
+    "firebase_url": "https://base-de-datosst-default-rtdb.firebaseio.com",
+    "project_id": "base-de-datosst",
+    "storage_bucket": "base-de-datosst.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:472830761620:android:d2437af0d377eca478f281",
+        "mobilesdk_app_id": "1:675367861648:android:ce3f9c10f60ff2e5b54715",
         "android_client_info": {
-          "package_name": "SantoTomas.proyectosantotomas"
+          "package_name": "santoTomas.proyectosantotomas"
         }
       },
       "oauth_client": [
         {
-          "client_id": "472830761620-ciddsut85t84jndcpb7jfl8gmeve4bkv.apps.googleusercontent.com",
+          "client_id": "675367861648-jl9b27qsive4bp4qfc4es8gmvvvhgbfq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCHTrKSudJKwj8ocKUNUB4i2OTcygIqdM4"
+          "current_key": "AIzaSyCsZj9_5iN4Wf_xle7lHZ5xecTMR2lqY6s"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "472830761620-ciddsut85t84jndcpb7jfl8gmeve4bkv.apps.googleusercontent.com",
+              "client_id": "675367861648-jl9b27qsive4bp4qfc4es8gmvvvhgbfq.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,4 +1,4 @@
-package SantoTomas.proyectosantotomas.ui.main;
+package santoTomas.proyectosantotomas.ui.main;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,12 +12,12 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import SantoTomas.proyectosantotomas.Fragment1;
-import SantoTomas.proyectosantotomas.Fragment2;
-import SantoTomas.proyectosantotomas.Fragment3;
-import SantoTomas.proyectosantotomas.Fragment4;
-import SantoTomas.proyectosantotomas.R;
-import SantoTomas.proyectosantotomas.databinding.FragmentActLocalesBinding;
+import santoTomas.proyectosantotomas.Fragment1;
+import santoTomas.proyectosantotomas.Fragment2;
+import santoTomas.proyectosantotomas.Fragment3;
+import santoTomas.proyectosantotomas.Fragment4;
+import santoTomas.proyectosantotomas.R;
+import santoTomas.proyectosantotomas.databinding.FragmentActLocalesBinding;
 
 /**
  * A placeholder fragment containing a simple view.

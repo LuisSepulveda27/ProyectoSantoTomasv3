@@ -27,26 +27,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/textView2"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/BtLocales1"
-            android:layout_width="139dp"
-            android:layout_height="wrap_content"
-            android:text="Local 1" />
-
-        <Button
-            android:id="@+id/BtLocales2"
-            android:layout_width="144dp"
-            android:layout_height="wrap_content"
-            android:text="Local 2" />
-
-        <Button
-            android:id="@+id/BtLocales3"
-            android:layout_width="125dp"
-            android:layout_height="match_parent"
-            android:text="Local 3" />
-
-    </LinearLayout>
+        android:orientation="horizontal"/>
 
 </RelativeLayout>
