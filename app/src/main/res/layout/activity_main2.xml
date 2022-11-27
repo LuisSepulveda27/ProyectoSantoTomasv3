@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragment_color"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/iniciarSesionPantalla"
+        android:layout_width="155dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="68dp"
+        android:layout_weight="1"
+        android:onClick="Iriniciar"
+        android:text="iniciar Sesion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <Button
+        android:id="@+id/RegistrarPantalla"
+        android:layout_width="161dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="68dp"
+        android:layout_weight="1"
+        android:onClick="IrRegistrarse"
+        android:text="Registrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="159dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/pizzafondo10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="227dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="76dp"
+        android:text="   Proyecto ST"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,35 +11,20 @@
         android:id="@+id/button3"
         android:layout_width="146dp"
         android:layout_height="68dp"
-        android:layout_marginTop="36dp"
-        android:onClick="Siguiente"
-        android:text="Locales"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="146dp"
-        android:layout_height="68dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="24dp"
         android:onClick="Siguiente2"
-        android:text="Ubicacion Maps"
+        android:text="Ubicacion MAPS"
         android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="209dp"
         android:layout_height="64dp"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="160dp"
         android:background="#DC4B1F"
         android:gravity="center"
         android:text="Pizzas Chillan"
@@ -51,28 +36,15 @@
         tools:ignore="Deprecated" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="146dp"
-        android:layout_height="68dp"
-        android:layout_marginTop="116dp"
+        android:id="@+id/button6"
+        android:layout_width="143dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="64dp"
         android:onClick="Siguiente3"
-        android:text="Tab"
+        android:text="Locales Agregados"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="146dp"
-        android:layout_height="68dp"
-        android:layout_marginTop="76dp"
-        android:onClick="Siguiente4"
-        android:text="Agregar Locales"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
